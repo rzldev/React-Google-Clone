@@ -1,0 +1,30 @@
+.header__options {
+  display: flex;
+  align-items: center;
+}
+
+.header__optionsItem {
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+  color: #555;
+}
+
+.header__optionsItem > span {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__optionsItem :hover {
+  border-radius: 999px;
+  background-color: #F5F5F5;
+}
+
+.header__optionsItem:last-child > span > svg {
+  height: 100%;
+  width: 100%;
+  color: lightgray;
+}

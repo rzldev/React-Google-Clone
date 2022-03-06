@@ -1,0 +1,24 @@
+.search__item {
+  margin: 20px 0;
+}
+
+.search__itemLink {
+  text-transform: inherit;
+  text-decoration: none;
+}
+
+.search__itemLink > p {
+  color: #222;
+  margin: 0;
+}
+
+.search__itemLink > h3 {
+  margin: 4px 0;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.search__item > p {
+  margin: 0;
+}
